@@ -1,0 +1,13 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: devworks-sameer-app
+  host: devworks-sameer-app
+  disk_quota: 1024M
+  services:
+  - devworks-sameer-app-cloudantNoSQLDB
+  - Language Translator-6m
+  - Conversation-tt
+  - Visual Recognition-2o
